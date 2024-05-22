@@ -12,6 +12,10 @@ import Headroom from "react-headroom";
 const Navbar = () => {
   const [toggleNav, setToggleNav] = useState(true);
 
+  const handleClick = () => {
+    setToggleNav((prevState) => !prevState);
+  };
+
   return (
     <Headroom>
       <nav className="flex justify-between items-center p-5 z-30 lg:p-8 lg:px-12 bg-base-200 bg-gradient-to-r to-sky-950 from-gray-900 sticky">
@@ -34,8 +38,8 @@ const Navbar = () => {
             }`}
           >
             {NAV_LINKS.map((link) => (
-              <li className="p-5" key={link.key}>
-                {link.label}
+              <li className="p-5" key={link.key} onClick={handleClick}>
+                <Link href={`#${link.link}`}>{link.label}</Link>
               </li>
             ))}
           </ul>
@@ -58,7 +62,7 @@ const Navbar = () => {
               key={link.key}
               className="cursor-pointer font-medium text-teal-200 hover:text-teal-500"
             >
-              {link.label}
+              <Link href={`#${link.link}`}>{link.label}</Link>
             </li>
           ))}
         </ul>

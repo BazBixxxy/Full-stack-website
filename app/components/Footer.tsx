@@ -7,7 +7,7 @@ import { RiTwitterXLine } from "react-icons/ri";
 const Footer = () => {
   return (
     <>
-      <footer className="footer p-8 bg-gradient-to-r to-sky-950 from-gray-900 text-gray-400">
+      {/* <footer className="footer p-8 bg-gradient-to-r to-sky-950 from-gray-900 text-gray-400">
         <nav>
           <h6 className="footer-title">Services</h6>
           <Link href={`/`} className="link link-hover">
@@ -50,7 +50,7 @@ const Footer = () => {
             Cookie policy
           </Link>
         </nav>
-      </footer>
+      </footer> */}
 
       {/* lower footer */}
       <footer className="footer p-8 bg-gradient-to-r to-sky-950 from-gray-900 text-gray-400">
