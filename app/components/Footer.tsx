@@ -61,13 +61,25 @@ const Footer = () => {
         </aside>
         <nav className="md:place-self-center md:justify-self-end">
           <div className="grid grid-flow-col gap-8">
-            <Link href={"/"}>
+            <Link
+              href={"https://github.com/BazBixxxy"}
+              passHref={true}
+              target="_blank"
+            >
               <FaGithub className="text-3xl" />
             </Link>
-            <Link href={"/"}>
+            <Link
+              href={"mailto:kwagalatrevorbaz@gmail.com"}
+              passHref={true}
+              target="_blank"
+            >
               <LuMail className="text-3xl" />
             </Link>
-            <Link href={"/"}>
+            <Link
+              href={"https://x.com/kwagala_baz"}
+              passHref={true}
+              target="_blank"
+            >
               <RiTwitterXLine className="text-3xl" />
             </Link>
           </div>

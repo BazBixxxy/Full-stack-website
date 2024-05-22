@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ExploreCard = () => {
@@ -7,9 +8,15 @@ const ExploreCard = () => {
         <div className="font-medium capitalize mb-5 lg:mb-0">
           Go to app & start exploring the endless possibilities and milestones
         </div>
-        <button className="btn font-normal border-none w-36 bg-black lg:rounded-full  hover:bg-black hover:opacity-80 text-white">
-          Explore App
-        </button>
+        <Link
+          href="https://ultimate-stack-production.onrender.com"
+          passHref={true}
+          target="_blank"
+        >
+          <button className="btn font-normal border-none w-36 bg-black lg:rounded-full  hover:bg-black text-white">
+            Explore App
+          </button>
+        </Link>
       </div>
     </section>
   );
