@@ -3,9 +3,9 @@ const ContentCard = () => {
     <div className="lg:flex justify-between w-full">
       <div className="mb-8 lg:mb-0">
         <h3 className="text-5xl font-medium mb-5 leading-snug bg-gradient-to-tl to-sky-600 from-purple-500 inline-block text-transparent bg-clip-text">
-          Open source thrives on collaboration. <br /> Every line of code, every bug
-          fix, <br /> every improvement - big or small - contributes to the greater
-          good.
+          Open source thrives on collaboration. <br /> Every line of code, every
+          bug fix, <br /> every improvement - big or small - contributes to the
+          greater good.
         </h3>
         <p className="bg-gradient-to-tl to-sky-600 from-purple-500 inline-block text-transparent bg-clip-text">
           Be part of it by contributing to open source
