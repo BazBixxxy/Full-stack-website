@@ -15,9 +15,9 @@ const Hero = () => {
           This is my open-source full-stack project! Built with React, Express,
           Node.js, MongoDB, Next.js, and Tailwind CSS, this project showcases
           the full extent of my full-stack development and software engineering
-          skills. Here, I put into practice all the knowledge I've acquired,
-          exploring and pushing the boundaries of my skillset. Join me on this
-          journey of innovation and growth.
+          skills. Here, I put into practice all the knowledge I&apos;ve
+          acquired, exploring and pushing the boundaries of my skillset. Join me
+          on this journey of innovation and growth.
         </p>
 
         {/* contributors here */}
