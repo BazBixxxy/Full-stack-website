@@ -1,5 +1,3 @@
-import React from "react";
-
 const ContentCard = () => {
   return (
     <div className="lg:flex justify-between w-full">

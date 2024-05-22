@@ -1,4 +1,3 @@
-import React from "react";
 import WebCard from "./WebCard";
 
 const AboutSection = () => {

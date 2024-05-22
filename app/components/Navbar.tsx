@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import { useState } from "react";
 import { RiNextjsFill, RiNextjsLine } from "react-icons/ri";
 import { FiMenu } from "react-icons/fi";
 import { NAV_LINKS } from "../constants";

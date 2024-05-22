@@ -1,5 +1,3 @@
-import React from "react";
-import bg from "../images/bg.png";
 
 const Hero = () => {
   return (

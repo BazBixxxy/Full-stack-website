@@ -1,5 +1,3 @@
-import React from "react";
-
 const WebCard = () => {
   return (
     <div className="w-full border p-5 border-indigo-900 rounded pb-8 bg-gradient-to-r to-purple-800 ">

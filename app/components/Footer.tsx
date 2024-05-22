@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import { LuMail } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
