@@ -52,7 +52,7 @@ const Footer = () => {
       </footer> */}
 
       {/* lower footer */}
-      <footer className="footer p-8 bg-gradient-to-r to-sky-950 from-gray-900 text-gray-400">
+      <footer className="footer p-8">
         <aside className="items-center grid-flow-col">
           <p className="capitalize">
             &#169; all rights reserved baz kwagala trevor

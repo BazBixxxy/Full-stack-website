@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ImageSection = () => {
   return (
-    <section className="p-8 lg:hidden bg-gradient-to-r to-sky-950 from-gray-900">
+    <section className="p-8 lg:hidden">
       <div className="relative">
         <Image
           width={2250}

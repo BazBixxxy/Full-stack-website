@@ -18,8 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="dark">
-      <body className={`${inter.className} bg-black overflow-x-hidden`}>
-        <Navbar />
+      <body
+        className={`${inter.className} bg-gradient-to-r to-sky-950 from-gray-900 overflow-x-hidden flex flex-col items-center justify-center`}
+      >
+        {/* <Navbar /> */}
         <main className="relative overflow-hidden">{children}</main>
         <Footer />
       </body>

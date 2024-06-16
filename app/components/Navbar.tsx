@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <Headroom>
-      <nav className="flex justify-between items-center p-5 z-30 lg:p-8 lg:px-12 bg-base-200 bg-gradient-to-r to-sky-950 from-gray-900 sticky">
+      <nav className="flex justify-between items-center p-5 z-30 lg:p-8 lg:px-12 bg-gradient-to-r to-sky-950 from-gray-900">
         <div>
           <Link
             href={"/"}

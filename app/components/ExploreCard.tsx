@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const ExploreCard = () => {
   return (
-    <section className="p-8 bg-gradient-to-r to-sky-950 from-gray-900" id="app">
+    <section className="p-8 bg-gradient-to-r" id="app">
       <div className="lg:flex items-center p-8 lg:px-24 text-white justify-between bg-gradient-to-tl to-purple-600 from-orange-500 rounded-md">
         <div className="font-medium capitalize mb-5 lg:mb-0">
           Go to app & start exploring the endless possibilities and milestones

@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section
-      className="p-8 lg:flex justify-between items-center lg:pt-0 w-full bg-gradient-to-r to-sky-950 from-gray-900"
+      className="p-8 lg:flex justify-between items-center lg:pt-0 max-w-screen-xl"
       id="home"
     >
       <div className="flex-1 p-2 lg:pt-0">

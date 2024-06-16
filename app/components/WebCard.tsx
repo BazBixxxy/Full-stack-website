@@ -1,6 +1,6 @@
 const WebCard = () => {
   return (
-    <div className="w-full border p-5 border-indigo-900 rounded pb-8 bg-gradient-to-r to-purple-800 ">
+    <div className="w-full border p-5">
       <div className="lg:flex justify-between p-5">
         <div className="w-7/12">
           <div className="w-10 mb-2 border border-orange-500"></div>

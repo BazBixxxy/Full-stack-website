@@ -8,7 +8,7 @@ import { BiLogoTypescript } from "react-icons/bi";
 
 const Brand = () => {
   return (
-    <div className="flex flex-wrap gap-12 justify-center p-8 lg:p-0 bg-gradient-to-r to-sky-950 from-gray-900" id="tech">
+    <div className="flex flex-wrap gap-12 justify-center p-8 lg:p-0" id="tech">
       <div className="flex flex-col items-center border border-gray-500 p-2 rounded-md text-sky-500">
         <FaReact />
         <span className="text-xl font-normal">React</span>
